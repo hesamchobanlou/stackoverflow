@@ -15,6 +15,7 @@ var updateFirmwareCmd = &cobra.Command{
 	Short: "Updates the firmware",
 	Long:  "Update the firmware",
 	Run: func(cmd *cobra.Command, args []string) {
+		// run UpdateFirmware(...) method here
 		fmt.Println("updating firmware")
 	},
 }
